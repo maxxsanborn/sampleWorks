@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="FlightAutomation">
+	<parameter name="browser" value="chrome"/>
+	 <test name="testngTest">
+		 <classes>
+			 <class name="register.Register">
+				 <methods>
+					<include name="RegisterOnMercury" />
+				 </methods>
+			</class>
+			<class name="login.Login">
+				 <methods>
+					<include name="loginToMercury" />
+				 </methods>
+			</class>
+		</classes>
+	</test>
+</suite>
